@@ -1,0 +1,255 @@
+*{    
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+header{
+    background: url(images/Photo\ by\ Brice\ Cooper\ on\ Unsplash.jpeg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+    font-family: 'Dancing Script', sans-serif;
+    color: rgb(207, 207, 207);
+    font-size: 40px;
+    margin-top: 50px;
+    margin: 40px;
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}    
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 30px;
+    
+}
+ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    text-transform: uppercase;
+    color: rgb(207, 207, 207);
+    font-size: 40px;
+}
+main{
+    color: rgb(247, 245, 245);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   
+}
+.main-name{
+        margin-bottom: 5px;
+        font-size: xx-large;
+        color: rgb(167, 167, 167);
+}
+main h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(167, 167, 167);
+}
+main p{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 35px;
+    color:rgb(167, 167, 167);
+}
+.buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.btn{
+    font-size:small;
+    font-family: 'Agbalumo', sans-serif;
+    background-color:rgb(152, 180, 180);
+    background-size: cover;
+    color: black;
+    padding: 7px 7px 7px 7px;
+    border-radius: 20px;
+    border: none; 
+}
+button:hover {
+    background-color: rgb(131, 182, 131);
+   }
+.wid{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+.cards, .clt-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(184, 179, 179);
+    background: grey;
+    margin-left: 20px;
+    height: 300px;
+    text-align: center;
+}
+.card2{
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(184, 179, 179);
+    background: grey;
+    margin-left: 20px;
+    height: 100px;
+    text-align: center;
+}
+.card2 h2{
+    color:rgb(168, 168, 30);
+}
+.card1 h3{
+    color: black;
+    font-size: 20px;
+    margin-top: 15px;
+    border: none;
+
+}
+.card1 p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 7px;
+    border: none;
+    color: rgb(221, 220, 220);
+}
+.card1 img{
+    height: 50px;
+    width: 50px;
+}
+.main-section h1{
+    font-size: 60px;
+    margin-top: 50px;
+}
+.portfolio{
+    background: url("images/blog-bg.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgs{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.imgs img{
+    height: 300px;
+    width: 300px;
+    margin-left: 0 20px 20px 0;;
+}
+.imgs-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.portfolio h1{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.blogpost{
+    height: 450px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.trd-section{
+    margin-top:70px;
+
+}
+.trd-section h1{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.trd-section .first-img{
+    height: 300px;
+    width: 380px;
+    display: flex;
+    align-items: flex-end;
+    background: url("images/food1.jpg") no-repeat;
+    background-size: cover;
+}
+.frst .the-img, .scnd .the-img, .thrd .the-img{
+    color: black;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, .5);
+}
+.mid-main-img .scnd{
+    background: url("images/food2.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 380px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.left-main-img{
+        display: flex;
+        justify-content: space-evenly;
+}
+.clients{
+    background: url("images/Forest\ Trees\ Mist\ 4K\ Ultra\ HD\ Desktop\ Wallpaper\ \ Uploaded\ by\ DesktopWalls.jpeg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cntct{
+    background: url("images/contact-bg\ \(2\).png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;   
+    align-items: center;
+}
